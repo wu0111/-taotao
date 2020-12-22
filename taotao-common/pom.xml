@@ -4,14 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>taotao-parent</artifactId>
-        <groupId>cn.edu.sziit</groupId>
+        <groupId>com.itheima</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../taotao-parent/pom.xml</relativePath>
     </parent>
 
 
-<!--    这个工程是放通用代码，所以要打JAR包-->
- <packaging>jar</packaging>
+    <!--这个工程是放通用的代码，所以要打成jar包-->
+    <packaging>jar</packaging>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>taotao-common</artifactId>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>taotao-manager</artifactId>
-        <groupId>cn.edu.sziit</groupId>
+        <groupId>com.itheima</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,6 +12,15 @@
     <packaging>jar</packaging>
 
     <artifactId>taotao-manager-mapper</artifactId>
+
+    <!--因为mapper需要使用到javabean ， 所以此处需要依赖taotao-manager-pojo-->
+    <dependencies>
+        <dependency>
+            <groupId>com.itheima</groupId>
+            <artifactId>taotao-manager-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
